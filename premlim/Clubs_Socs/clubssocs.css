@@ -1,0 +1,73 @@
+#main{
+	margin-bottom: 100px;
+}
+.list{
+	display: inline-block;
+	width: 45%;
+	margin: 25px;
+	opacity: 0.9;
+}
+.list:hover{
+	opacity: 1;
+}
+.search-section{
+	position: relative;
+	top: 60px;
+	text-align: center;
+}
+#container{
+	position: relative;
+}
+.head{
+	display: inline-block;
+	width: 100%;
+	background-color: rgba(0, 121, 138, 1);
+	color: white;
+	text-align: center;
+}
+.item{
+	opacity: 0.6;
+}
+.item:hover{
+	opacity: 1;
+}
+
+#clubs{
+	position: absolute;
+	top: 30px;
+	bottom: 50px;
+	right: 50%;
+}
+
+#socs{
+	position: absolute;
+	top: 30px;
+	bottom: 50px;
+	left: 50%;
+}
+
+#searchBar {
+	top: 25px;
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+#searchBar:hover {
+	cursor: text;
+}
+#search {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    /*border:2px solid #207cca;
+    background-color:#207cca;*/
+    border: 2px solid rgba(0, 121, 138, 1);
+    background-color: rgba(0, 121, 138, 1);
+    color:#fafafa;
+}
+#search:hover  {
+    background-color:#fafafa;
+    /*color:#207cca;*/
+    color:rgba(0, 121, 138, 1);
+    cursor: pointer;
+}
